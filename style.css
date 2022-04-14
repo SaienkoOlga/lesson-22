@@ -7,7 +7,7 @@ body {
    }
   
   .container {
-    max-width: 1720px;
+    max-width: 1660px;
     margin: 0 auto;
     padding: 20px;
   }
@@ -54,9 +54,21 @@ body {
     margin-top: 40px;
 }
 
+.carousel-item {
+    max-width: 100%;
+    height: auto;
+}
+
 .pagination {
     margin-top: 40px;
-       display: flex;
+    display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .header-top-bar {
+        margin-top: 50px;
+        flex-direction: column;
+    }
 }
 
